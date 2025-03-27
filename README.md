@@ -21,11 +21,21 @@ Data Cleaning: missind data were handled, duplicates removed, and dates and time
 ##### SQL 
 The flight data was queried to solve some business problems;
 * Which month did passengers cancel flights the most?
+![](Images/cancelled_flights.png)
+![](Images/cancelled_flightsR.png)
 * Which manufacturer has the best aircrafts in terms of fuel efficiency?
+![](Images/best_fuel_efficiency.png)
+![](Images/best_fuel_effiR.png)
+
 Used Complex joins to analyze data given;
 * Which city do passengers travel to the most?
+![](Images/city_travelled_most.png)
+![](Images/city_travelled_mostR.png)
+
 Performed data aggregation;
 * What is the average number of passengers like for each month?
+![](Images/avg_pass_by_month.png)
+![](Images/avg_passenger_per_mon.png)
 
 ___
 ## ANALYSIS AND VISUALIZATIONS
