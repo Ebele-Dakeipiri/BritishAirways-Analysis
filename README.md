@@ -50,11 +50,17 @@ Data Modelling; The data contained both dimension and fact tables
 
 DAX Measures; DAX measures were created for key metrics. Some are:
 * Total flights
+  
 ![](Images/total_flightsDAX.png)
+
 * Total passengers
+  
 ![](Images/total_passDAX.png) 
+
 * Average number of passengers
+  
 ![](Images/avg_passDAX.png)
+
 * Previous month baggage revenue
 ![](Images/prev_baggage_rev.png)
 
