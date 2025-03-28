@@ -36,11 +36,32 @@ Performed data aggregation;
 * What is the average number of passengers like for each month?
 ![](Images/avg_pass_by_month.png)
 ![](Images/avg_passenger_per_mon.png)
+#### POWER BI
+The data was gotten by connecting to SQL database.
+Data Tranformation;
+* Conditional column was added to classify delayed and on time flights
+* A calender table was created
+
+Data Modelling; The data contained both dimension and fact tables
+* ba_aircrafts
+* ba_flights
+* ba_flight_routes
+* ba_fuel_efficiency
+
+DAX Measures; DAX measures were created for key metrics. Some are:
+* Total flights
+![](Images/total_flightsDAX.png)
+* Total passengers
+![](Images/total_passDAX.png) 
+* Average number of passengers
+![](Images/avg_passDAX.png)
+* Previous month baggage revenue
+![](Images/prev_baggage_rev.png)
 
 ___
 ## ANALYSIS AND VISUALIZATIONS
 ___
-This project contains A report page/ Dashboard
+This project contains a report page/ Dashboard
 ![](Images/BA_Analysis_dashboard.png)
 #### Percentage of cancelled flights to completed and scheduled flights 
 ![](Images/Total_flights_by_status.png)
